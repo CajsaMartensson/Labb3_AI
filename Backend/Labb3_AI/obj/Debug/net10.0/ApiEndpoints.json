@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "Labb3_AI.Controllers.AiController",
+    "Method": "Agenda",
+    "RelativePath": "api/Ai/agenda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prompt",
+        "Type": "Labb3_AI.DTOs.RequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Labb3_AI.Controllers.AiController",
+    "Method": "Invitation",
+    "RelativePath": "api/Ai/invitation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Labb3_AI.DTOs.RequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Labb3_AI.Controllers.AiController",
+    "Method": "Summarize",
+    "RelativePath": "api/Ai/summarize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prompt",
+        "Type": "Labb3_AI.DTOs.RequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

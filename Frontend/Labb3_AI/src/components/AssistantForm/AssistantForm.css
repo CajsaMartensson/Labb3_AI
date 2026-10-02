@@ -1,0 +1,84 @@
+.assistant {
+    text-align: center;
+}
+
+.assistant-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assistant-form select {
+    width: 14rem;
+    padding: 0.8rem 3rem 0.8rem 1.2rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    margin: 1rem;
+}
+
+.assistant-form textarea {
+    width: 32rem;
+    height: 11rem;
+    max-width: 90%;
+    border: none;
+    border-radius: 1.6rem;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.assistant-form select:focus,
+.assistant-form textarea:focus {
+    outline: 0.2rem solid rgb(166, 88, 166);
+}
+
+.assistant-form button {
+    width: 11rem;
+    padding: 0.6rem 1em;
+    background-color: #f4a6c8;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.result-card {
+    width: 32rem;
+    max-width: 90%;
+    margin: 2rem auto;
+    padding: 1.2rem 1.5rem;
+    border-radius: 1.6rem;
+    background-color: white;
+    text-align: center;
+    color: #b0336f;
+}
+
+
+.result-card h3 {
+    font-family: "Titan One", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #b0336f;
+}
+
+.result-text {
+    font-size: 1rem;
+    white-space: pre-wrap;
+}
+
+.copy-button {
+    padding: 0.5rem 1.2em;
+    background-color: #f4a6c8;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.result:empty {
+    display: none;
+}
+
+.error {
+    margin: 2rem auto;
+    color: #b00020;
+}
